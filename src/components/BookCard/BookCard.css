@@ -1,0 +1,20 @@
+.bookcard {
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    height:420px;
+    width: 300px;
+    text-align: start;
+    border-radius: 5px;
+
+}
+
+.bookicon {
+    display: block;
+    text-align: right;
+    margin-left: 2rem;
+}
+
+.readmore {
+    margin-right: 1.5rem;
+}

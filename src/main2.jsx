@@ -44,3 +44,40 @@ createRoot(document.getElementById('root')).render(
 <Box name="Elina" title="Biologist" age="92"/>
 <Box name="Anne" title="CEO" age="127"/>
 <Box name="Samuli" title="Analyst" age="127"/>
+
+
+{persons.map((person, index) => (
+  <Box 
+    index={index}
+    key={person.id}
+    id={person.id}
+    name={person.name}
+    title={person.title}
+    age={person.age}
+  />
+))};
+
+
+<div className='booklist'>
+{books.map((book) => (
+    <BookCard 
+      key={book.id}
+      title={book.title}
+      author={book.author}
+      year={book.year}
+      genre={book.genre}
+      inStock={book.inStock}
+      price={book.price}
+    />
+))};
+</div>
+
+
+<div className='booklist'>
+{books.map((el) => (
+    <BookCard 
+      key={el.id} 
+      {...el}
+    />
+))};
+</div>

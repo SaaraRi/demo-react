@@ -1,0 +1,13 @@
+.booklist {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 3rem 0;
+}
+
+h1 {
+    font-family: "Boldonse";
+    font-size: 38pt;
+}
